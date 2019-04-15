@@ -1,0 +1,12 @@
+[24-Sep-2018 21:33:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/peaksa69/public_html/wp-content/themes/x-child/single-trips.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/peaksa69/public_html/wp-content/themes/x-child/single-trips.php on line 11
+[24-Sep-2018 21:34:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/peaksa69/public_html/wp-content/themes/x-child/functions.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/peaksa69/public_html/wp-content/themes/x-child/functions.php on line 19
+[24-Sep-2018 21:34:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/peaksa69/public_html/wp-content/themes/x-child/functions.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/peaksa69/public_html/wp-content/themes/x-child/functions.php on line 19
