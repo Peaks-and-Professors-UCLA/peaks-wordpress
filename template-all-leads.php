@@ -35,7 +35,7 @@ $loop = new WP_Query( array(
     <h2 class="small-header">Who are the trip leads?</h2>
     
     <p class="content-text text-center text-normal">
-    We are a a pun-loving, ambitious, and down-to-earth group of student leaders from diverse backgrounds. Our team helps shape and improve this innovative, rapidly-growing student organization. Trip Leads network with stellar UCLA professors and invite them to various trips. By lead at least 1 trip each quarter and serving as a co-lead on other Peaks trips, there are myriads of opportunities to develop important skills such as leadership, project management, public speaking, and facilitating interpersonal connections.
+    We are a a pun-loving, ambitious, and down-to-earth group of student leaders from diverse backgrounds. Our team helps shape and improve this innovative, rapidly-growing student organization. Trip Leads network with stellar UCLA professors and invite them to various trips. By leading at least 1 trip each quarter and serving as a co-lead on other Peaks trips, there are myriads of opportunities to develop important skills such as leadership, project management, public speaking, and facilitating interpersonal connections.
     </p>
 
     <?php while ( $loop->have_posts() ) : ?>
