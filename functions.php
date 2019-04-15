@@ -32,11 +32,6 @@ function custom_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts', rand(111,9999) );
 
-function my_acf_init() {
-	acf_update_setting('google_api_key', 'AIzaSyCuHg1DsGwM8IQzP4yTuTaknjYbFLtFUec');
-}
-add_action('acf/init', 'my_acf_init');
-
 function get_cur_pst() {
 	date_default_timezone_set('America/Los_Angeles');
 	return strtotime(date('Y-m-d H:i:s'));
