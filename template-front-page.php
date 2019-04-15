@@ -24,7 +24,7 @@ $fullwidth = true;
     <div class="x-container">
         <!-- <div class="announcement"></div> -->
         <div class="x-column x-sm x-1-2">
-            <p>Peaks & Professors at UCLA is a student organization that organizes hikes with students and professors, giving students the opportunity to experience the outdoors in a whole new way by forming new connections with professors and their peers. Interested? Join our mailing list (form to the right), and view our <a href="/upcoming-trips">upcoming trips</a>.</p>
+            <p>Peaks & Professors at UCLA is a student organization that organizes hikes with students and professors, giving students the opportunity to experience the outdoors in a whole new way, by forming new connections with professors and their peers. Interested? Join our mailing list (form to the right), and view our <a href="/upcoming-trips">upcoming trips</a>.</p>
         </div>
 
         <div class="x-column x-sm x-1-2">
