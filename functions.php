@@ -60,7 +60,7 @@ function is_signup_open($id) {
 
 function the_mailing_list_form() {
 	// 358 for local one
-	echo do_shortcode('[tco_subscribe form="438"]');
+	echo do_shortcode('[contact-form-7 id="345" title="Add to email list"]');
 }
 
 function create_trips_post_type() {

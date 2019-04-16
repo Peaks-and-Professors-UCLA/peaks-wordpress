@@ -33,9 +33,9 @@ $fullwidth = true;
 
 
     <?php while ( have_posts() ) : the_post(); ?>
-
-        <?php the_content() ?>
-
+        <div class="text-dark">
+            <?php the_content() ?>
+        </div>
     <?php endwhile; ?>
 </div>
 
