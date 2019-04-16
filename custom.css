@@ -16,6 +16,7 @@ Template: x
 
 .my-container {
     margin: 2em 2em;
+    background: white !important;
 }
 
 .big-header {
@@ -114,6 +115,17 @@ Template: x
     font-weight: 400;
 }
 
+.wpcf7-submit {
+    background-color: #136cde !important;
+    border-color: #0e0961 !important;
+    box-shadow: 0 0.25em 0 0 #18227d, 0 4px 9px rgba(0,0,0,0.75) !important;
+    width: 200px !important;
+}
+
+body {
+    background: white !important;
+}
+
 p a {
     color: black !important;
 }
@@ -123,7 +135,7 @@ a:hover {
 }
 
 .text-normal {
-    color: rgb(61, 60, 60) !important;
+    color: rgb(62, 61, 61) !important;
 }
 
 .text-dark {
