@@ -177,7 +177,7 @@ a img:hover {
 .centered-home {
     position: absolute;
     left: 50%;
-    top: 17%;
+    top: 22%;
     transform: translate(-50%, -50%);
 
     width: 800px;
@@ -209,6 +209,7 @@ a img:hover {
     }
 
     .centered-home {
+        top: 17%;
         width: 80%;
     }
 
