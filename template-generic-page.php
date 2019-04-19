@@ -15,17 +15,27 @@ $fullwidth = true;
 <?php get_header(); ?>
 
 
+<?php if (has_post_thumbnail()) : ?>
+<style>
+.main-billboard {
+    height: 580px;
+    background: linear-gradient(rgba(10, 10, 10, 0.25), rgba(10, 10, 10, 0.25)), url("<?php the_post_thumbnail_url($size='full'); ?>") center no-repeat;
+    background-size: cover;
+}
+</style>
 
+<div class='main-billboard'>
+    <div class='centered'>
+        <div class='billboard-logo'>
+            <p class='logo-text'><?php the_title() ?></p>
+        </div>
+    </div>
+</div>
+<?php endif ?>
 
 <div class="my-container content-text">
 
-    <?php if (has_post_thumbnail()) : ?>
-    <div class="image-title-container">
-        <img class="image-title-image" src="<?php the_post_thumbnail_url($size='full'); ?>">
-        <div class="image-title-text"><?php the_title(); ?></div>
-    </div>
-
-    <?php else : ?>
+    <?php if (!has_post_thumbnail()) : ?>
 
     <h1 class="big-header"><?php the_title(); ?></h1>
 
