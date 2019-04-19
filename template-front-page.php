@@ -32,11 +32,6 @@ $fullwidth = true;
 
 <div class="home-container text-normal">
 
-    <div class="image-title-container">
-        <img class="image-title-image" src="<?php the_post_thumbnail_url($size='full'); ?>">
-        <div class="image-title-text">Peaks & Professors at UCLA</div>
-    </div>
-
     <div class="x-container">
         <!-- <div class="announcement"></div> -->
         <div class="x-column x-sm x-1-2">
