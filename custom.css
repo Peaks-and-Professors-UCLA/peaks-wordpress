@@ -10,6 +10,7 @@ Template: x
 
 */
 
+
 /*****
     General
 *****/
@@ -142,6 +143,66 @@ a img:hover {
     opacity: 0.8;
     transition-duration: 300ms;
 }
+
+/* Stuff for image screen cover */
+
+/* We just manually include this on every page so that we can use php */
+/* .main-billboard {
+    height: 580px;
+    background: linear-gradient(rgba(10, 10, 10, 0.25), rgba(10, 10, 10, 0.25)), url("http://peaksandprofessorsucla.org/wp-content/uploads/2019/04/clouds-conifer-daylight-371589.jpg") center no-repeat;
+    background-size: cover;
+} */
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+}
+
+.centered-home {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+}
+
+.billboard-logo {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    padding: 0 0 0 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1.2;
+
+    text-shadow: 2px 2px #000000;
+}
+
+@media (max-width: 990px) {
+    .centered {
+        top: 11%;
+        width: 80%;
+    }
+
+    .logo-text {
+        font-size: 52px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
+
 
 /*****
     Home page

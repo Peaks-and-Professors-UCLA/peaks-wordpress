@@ -14,6 +14,22 @@ $fullwidth = true;
 
 <?php get_header(); ?>
 
+<style>
+.main-billboard {
+    height: 580px;
+    background: linear-gradient(rgba(10, 10, 10, 0.25), rgba(10, 10, 10, 0.25)), url("<?php the_post_thumbnail_url($size='full'); ?>") center no-repeat;
+    background-size: cover;
+}
+</style>
+
+<div class='main-billboard'>
+    <div class='centered-home'>
+        <div class='billboard-logo'>
+            <p class='logo-text'>Peaks & Professors at UCLA</p>
+        </div>
+    </div>
+</div>
+
 <div class="home-container text-normal">
     
     <div class="image-title-container">
