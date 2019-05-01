@@ -168,7 +168,7 @@ a img:hover {
 .centered {
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 37%;
     transform: translate(-50%, -50%);
 
     width: 800px;
@@ -177,7 +177,7 @@ a img:hover {
 .centered-home {
     position: absolute;
     left: 50%;
-    top: 22%;
+    top: 25%;
     transform: translate(-50%, -50%);
 
     width: 800px;
@@ -203,13 +203,17 @@ a img:hover {
 }
 
 @media (max-width: 990px) {
+    .main-billboard {
+        height: 300px;
+    }
+
     .centered {
-        top: 26%;
+        top: 21%;
         width: 80%;
     }
 
     .centered-home {
-        top: 15%;
+        top: 11%;
         width: 80%;
     }
 

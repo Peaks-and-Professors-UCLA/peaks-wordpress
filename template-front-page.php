@@ -16,11 +16,17 @@ $fullwidth = true;
 
 <style>
 .main-billboard {
-    height: 580px;
+    height: 620px;;
     background: linear-gradient(rgba(10, 10, 10, 0.25), rgba(10, 10, 10, 0.25)), url("<?php the_post_thumbnail_url($size='full'); ?>") center no-repeat;
     background-size: cover;
 
     margin-bottom: 30px;
+}
+
+@media (max-width: 990px) {
+    .main-billboard {
+        height: 300px;
+    }
 }
 </style>
 
