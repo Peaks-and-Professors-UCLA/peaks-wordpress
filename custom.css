@@ -147,6 +147,10 @@ a:hover {
     font-weight: 600;
 }
 
+.x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .x-active > a, .x-navbar .desktop .x-nav > .current-menu-item > a {
+    box-shadow: inset 0 4px 0 0 #FEAE26 !important;
+}
+
 a img {
     transition-duration: 300ms;
 }
