@@ -41,7 +41,7 @@ $fullwidth = true;
 <div class="home-container text-normal">
 
     <div class="x-container">
-        <!-- <div class="announcement"></div> -->
+        <div class="announcement">Trip sign-ups open at 6 P.M., 11/06/19. Trip lead applications due at 11:59 P.M., 11/11/19.</div>
         <div class="x-column x-sm x-1-2">
             <p>Peaks & Professors at UCLA is a student organization that organizes hikes with students and professors, giving students the opportunity to experience the outdoors in a whole new way by forming new connections with professors and their peers. Interested? Join our mailing list (form to the right), and view our <a href="/upcoming-trips">upcoming trips</a>.</p>
         </div>
